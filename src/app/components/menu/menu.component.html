@@ -1,0 +1,37 @@
+<div id='container'>
+
+<div id="container-menu">
+    <div id="container-category">
+        <section id="breakfast">
+        <h3 (click)="mostrar = !mostrar"> Desayuno</h3>
+        <hr>
+        <br>
+        </section>
+        <p [routerLink] = "['/hamburguesas']"> Hamburguesas</p>
+        <hr>
+        <br>
+        <p> Especificaciones</p>
+        <hr>
+        <a [routerLink] = "['/welcome']"><img id="exit"src="../../../assets/images/exit.png"></a>
+        
+    </div>
+    <section id="logo-container">
+        <img id="logo-category" src="../assets/images/BurgerQueen.png">
+    </section>
+        <section *ngIf="mostrar" id="section-name">
+        <p> NOMBRE </p>
+         <input  id="name-client" type="text" placeholder="Nombre de Cliente" (keyup.enter)="onKey($event)" [(ngModel)]="client.name"  > 
+        </section> 
+        
+        <section *ngIf = "!mostrar"class="products-container">
+            <h2>D E S A Y U N O S</h2>
+            <div *ngFor = "let producto of desayuno" class="producto">
+            <img class="imagen-producto"[src]= "producto.imagen">
+            <p>{{producto.nombre}}</p>
+            <p>{{producto.precio}}</p>
+            </div>
+        </section>
+        <!-- <input type="text" placeholder="Nombre de Cliente"></input> -->  
+        <app-ticket [inputValue]="inputValue">{{inputValue}}</app-ticket>
+   </div>
+</div>
