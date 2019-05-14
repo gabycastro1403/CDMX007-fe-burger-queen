@@ -1,0 +1,29 @@
+p{
+    color: #707070;
+    font-family: 'Economica', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-right: 4%;
+    margin-left: 0%;
+}
+hr{
+    width: 75%;
+}
+#container-category{
+    background-color: #f8d554;
+    width: 22%;
+    height: 700px;
+}
+#breakfast{
+    padding-top: 85%;
+}
+ p:hover{
+     /* color:#acb8bf; */
+     font-size: 1.8em;
+ }
+#exit{
+    position: relative;
+    float: right;
+    height: 40px;
+    margin-top: 39%;
+}

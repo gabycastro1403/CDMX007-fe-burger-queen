@@ -14,7 +14,6 @@ h2{
     font-family:'Economica', sans-serif;
     font-size: 2em;
     text-align: left;
-    margin-bottom: 0%
 }
 h3{
     color: #707070;
@@ -118,30 +117,4 @@ hr{
 .container-extras{
     position: relative;
     float: right;
-    display: block;
-    width: 100%;
-}
-.extras-main{
-    margin: 1%;
-    display: inline-block;
-    margin-left: 42%;
-}
-.extras-main p{
-    color: #7cccf3;
-    font-family:'Economica', sans-serif;
-    font-size: 1em;
-    text-align: center;
-    margin: 0%;
-}
-.extras{
-    margin: 1%;
-    display: inline-block;
-    margin-left: 6%;
-}
-.extras p{
-    color: #7cccf3;
-    font-family:'Economica', sans-serif;
-    font-size: 1em;
-    text-align: center;
-    margin: 0%;
 }

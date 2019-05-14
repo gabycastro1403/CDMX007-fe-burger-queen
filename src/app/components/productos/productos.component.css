@@ -1,0 +1,52 @@
+h2{
+    color: #7cccf3;
+    font-family: 'Economica', sans-serif;
+    font-size: 2em;
+    text-align: left
+}
+.products-container{
+    background-color: #edf5f9;
+    position: relative;
+    width: 46%;
+    float: left;
+    margin-top: -70%;
+    margin-left: 26%;
+    height: auto;
+}
+.producto{
+    background-color: #d9e3e6;
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    margin: 2%;
+    border-radius: 6%;
+}
+.imagen-producto{
+    position: relative;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    margin-top: 6%;
+}
+.producto p{
+    color: #707070;
+    font-family: 'Economica', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin: 1%;
+    padding: 1px;
+}
+#logo-container{
+    position: relative;
+    width: 38%;
+    height: 50%;
+    float: right;
+    margin-top: -87%;
+    right: 32%;
+
+}
+#logo-category{
+    position: relative;
+    width:100%;
+    height: 100%;
+
+}

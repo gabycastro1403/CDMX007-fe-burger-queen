@@ -13,13 +13,12 @@
 }
  
  .logo{
-    width: 60%;
+    width: 49%;
     height: 70%;
     position: relative;
     float: right;
-    right: 212px; 
-    margin-top: 12%; 
-    left:-21%;
+    margin-top: -86%;
+    left: -27%;
    
 }
 #start{
@@ -30,7 +29,7 @@
     border-radius: 12.7px;
     position: relative;
     float: left;
-    margin-top: 7%;
+    margin-top: -59%;
     font-size: 1.5em;
     font-family: 'Economica', sans-serif;
     left:29%;
