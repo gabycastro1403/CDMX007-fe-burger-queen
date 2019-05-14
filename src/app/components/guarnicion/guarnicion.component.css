@@ -14,7 +14,6 @@ h2{
     font-family:'Economica', sans-serif;
     font-size: 2em;
     text-align: left;
-    margin-bottom: 0%
 }
 h3{
     color: #707070;
@@ -100,7 +99,7 @@ hr{
 }
 .producto-hamburguer{
     background-color: #d9e3e6;
-    width: 29%;
+    width: 46%;
     height: auto;
     display: inline-block;
     margin: 2%;
@@ -118,13 +117,12 @@ hr{
 .container-extras{
     position: relative;
     float: right;
-    display: block;
-    width: 100%;
+    margin-top:6%;
 }
 .extras-main{
     margin: 1%;
     display: inline-block;
-    margin-left: 42%;
+    margin-left: -19%;
 }
 .extras-main p{
     color: #7cccf3;
@@ -144,4 +142,5 @@ hr{
     font-size: 1em;
     text-align: center;
     margin: 0%;
+    margin-left: -14%;
 }

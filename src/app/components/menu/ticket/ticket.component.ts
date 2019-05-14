@@ -1,4 +1,4 @@
-import { Component, OnInit,Input } from '@angular/core';
+import { Component,Input, } from '@angular/core';
 
 
 @Component({
@@ -6,16 +6,14 @@ import { Component, OnInit,Input } from '@angular/core';
   templateUrl: './ticket.component.html',
   styleUrls: ['./ticket.component.css']
 })
-export class TicketComponent implements OnInit {
+export class TicketComponent  {
+  
+  nameValue:string='cliente';
 
-  constructor() { 
-    //console.log(client);
+  constructor() {  }
   }
-
-  ngOnInit() {
-  }
-@Input() inputValue:string;
-//@Input()client:any = { name:'hola ticket'};
+  
+  
 
 
-}
+

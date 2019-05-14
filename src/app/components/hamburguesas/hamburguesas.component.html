@@ -1,31 +1,27 @@
-<div id="container-category">
-    <section id="breakfast">
-    <p [routerLink]="['/menu']"> Desayuno</p>
-    <hr>
-    <br>
-    </section>
-    <h3 (click)="mostrar = !mostrar"> Hamburguesas</h3>
-    <hr>
-    <br>
-    <p> Especificaciones</p>
-    <hr>
-    <a [routerLink] = "['/welcome']"><img id="exit"src="../../../assets/images/exit.png"></a>
-</div>
+
 <section id="logo-container">
     <img id="logo-category" src="../assets/images/BurgerQueen.png">
 </section>
-
-<section *ngIf="mostrar" id="section-name">
-        <p> NOMBRE </p>
-         <input  id="name-client" type="text" placeholder="Nombre de Cliente" (keyup.enter)="onKey($event)"> 
-        </section>
-<section *ngIf="!mostrar" class="products-container">
+<section  class="products-container">
     <h2>H A M B U R G U E S A S</h2>
     <div *ngFor = "let hamburguer of hamburguesa" class="producto-hamburguer">
         <img class="imagen-producto" [src]="hamburguer.imagen">
         <p>{{hamburguer.nombre}}</p>
         <p>{{hamburguer.precio}}</p>
     </div>
-
+    <div class="container-extras">
+        <div class="extras-main">
+        <a [routerLink]="['/extras']"><img src='../../../assets/images/lote/egg-1.png'></a>
+        <p>Extras</p>
+        </div>
+        <div  class="extras">
+        <img [routerLink]="['/bebidas']" src='../../../assets/images/lote/refresco-1.png'>
+        <p>Bebidas</p>
+        </div>
+        <div  class="extras">
+        <a [routerLink]="['/guarnicion']"><img src='../../../assets/images/lote/french-fries-1.png'></a>
+        <p>Guarnición</p>
+        </div>
+    </div>
 </section>
-<app-ticket [inputValue]="inputValue">{{inputValue}}</app-ticket>
+<!-- <app-ticket [inputValue]="inputValue">{{inputValue}}</app-ticket> -->
