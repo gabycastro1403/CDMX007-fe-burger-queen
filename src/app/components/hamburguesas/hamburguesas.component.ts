@@ -1,5 +1,6 @@
 import { Component, OnInit, } from '@angular/core';
 import { HamburguesasService } from '../../servicios/hamburguesas.service';
+import { TicketService } from '../../servicios/ticket.service';
 
 @Component({
   selector: 'app-hamburguesas',
@@ -8,7 +9,8 @@ import { HamburguesasService } from '../../servicios/hamburguesas.service';
 })
 export class HamburguesasComponent implements OnInit {
 
-  constructor(private _hamburguesaService:HamburguesasService) { }
+  constructor(private _hamburguesaService:HamburguesasService,
+     private _ticketService:TicketService) { }
   hamburguesa:any[] = [];
   inputValue:string;
   mostrar=true;
@@ -18,9 +20,19 @@ export class HamburguesasComponent implements OnInit {
     //console.log(this.inputValue);
     return this.inputValue;
   }
+  product:object;
 
   ngOnInit() {
     this.hamburguesa= this._hamburguesaService.getHamburguesas();
   }
+  public searchProduct(index){
+    this.hamburguesa.forEach( element=>{
+      if(element.index== index){
+        this.product=element;
+        this._ticketService.saveTicket(this.product);
+        //return this.product;
+      }
+    })
+  };
   
 }

@@ -21,6 +21,10 @@ h2{
     margin: 2%;
     border-radius: 6%;
 }
+.producto:hover{
+    background-color: #acb8bf;
+}
+
 .imagen-producto{
     position: relative;
     margin-left: 35%;
@@ -49,4 +53,38 @@ h2{
     width:100%;
     height: 100%;
 
+}
+@media (max-width:800px){
+    
+    .products-container{
+        margin-top: -71%;
+    }
+    #logo-container{
+        margin-top: -89%;
+    }
+    h2{
+        font-size: 2em;
+    }
+    .producto p{
+        font-size: 0.9em;
+    }
+
+}
+@media(min-width:1200px){
+    h2{
+        font-size: 2.3em;
+    }
+    .products-container{
+        margin-top: -42%;
+    }
+    #logo-container{
+        margin-top: -55%;
+    }
+    #logo-category{
+        width: 70%;
+        margin-left:6%
+    }
+    .producto{
+        font-size: 1.5em;
+    }
 }

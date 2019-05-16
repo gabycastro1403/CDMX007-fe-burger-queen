@@ -19,7 +19,7 @@ const app_routes : Routes = [
     {path: 'bebidas', component: BebidasComponent },
     {path: 'guarnicion', component: GuarnicionComponent },
     {path: 'especificaciones', component:EspecificacionesComponent},
-    {path: '**', pathMatch:'full', redirectTo:'welcome'}
+    {path: '**', pathMatch:'full', redirectTo:'name'}
 
 ];
 

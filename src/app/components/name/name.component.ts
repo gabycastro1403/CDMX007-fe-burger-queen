@@ -1,4 +1,5 @@
-import { Component, OnInit, } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
+import { InputService } from '../../servicios/input.service';
 
 @Component({
   selector: 'app-name',
@@ -7,14 +8,17 @@ import { Component, OnInit, } from '@angular/core';
 })
 export class NameComponent implements OnInit {
   inputValue:string;
+  constructor(private _inputService:InputService){}
 
-  onKey(event) {
-    this.inputValue = event.target.value;
-    console.log(this.inputValue);
-    return this.inputValue;
+  public value(){
+    this._inputService.onKey(event);
   }
-  
-
+  // onKey(event) {
+  //   this.inputValue = event.target.value;
+  //   console.log(this.inputValue);
+  //   return this.inputValue;
+  // }
+ 
   ngOnInit() {
     
   }

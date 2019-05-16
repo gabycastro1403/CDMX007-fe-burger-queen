@@ -1,4 +1,7 @@
-import { Component,Input, } from '@angular/core';
+import { Component } from '@angular/core';
+import { InputService } from '../../../servicios/input.service';
+import { TicketService } from '../../../servicios/ticket.service';
+
 
 
 @Component({
@@ -6,12 +9,17 @@ import { Component,Input, } from '@angular/core';
   templateUrl: './ticket.component.html',
   styleUrls: ['./ticket.component.css']
 })
-export class TicketComponent  {
+export class TicketComponent {
   
-  nameValue:string='cliente';
+   nameValue:string;
+  constructor(private _inputService:InputService, private _ticketService:TicketService) { 
+    
+   }
+   
+  
 
-  constructor() {  }
   }
+  
   
   
 

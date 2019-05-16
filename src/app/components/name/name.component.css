@@ -42,3 +42,37 @@ p{
     height: 100%;
 
 }
+@media(min-width:850px)and (max-width:1000px){
+    p{
+        font-size: 3.5em;
+    }
+    #section-name{
+        margin-top: -50%;
+    }
+    #name-client{
+        width: 155%;
+        font-size: 2.2em;
+    }
+    #logo-container{
+        margin-top: -68%;
+    }
+}
+@media(min-width:1001px) and (max-width:1500px){
+    p{
+        font-size: 3.5em;
+    }
+    #section-name{
+        margin-top: -40%;
+    }
+    #name-client{
+        font-size: 2.5em;
+        right: -35%;
+    }
+    #logo-container{
+        margin-top: -53%;
+    }
+    #logo-category{
+        width: 80%;
+    }
+
+}
