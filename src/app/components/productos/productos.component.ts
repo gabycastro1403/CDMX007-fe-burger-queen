@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuService} from '../../servicios/menu.service'
+import { MenuService} from '../../servicios/menu.service';
+import { TicketService } from '../../servicios/ticket.service';
 
 @Component({
   selector: 'app-productos',
@@ -8,11 +9,23 @@ import { MenuService} from '../../servicios/menu.service'
 })
 export class ProductosComponent implements OnInit {
   menu:any[]= [];
-  constructor(private _menuService:MenuService) { }
+  constructor(private _menuService:MenuService, private _ticketService:TicketService) { }
 
   ngOnInit() {
     this.menu = this._menuService.getMenu();
     console.log(this.menu);
   }
+  product:object;
+
+  public searchProduct(index){
+    this.menu.forEach( element=>{
+      if(element.index== index){
+        this.product=element;
+        this._ticketService.saveTicket(this.product);
+        //return this.product;
+      }
+    })
+  };
+  
 
 }

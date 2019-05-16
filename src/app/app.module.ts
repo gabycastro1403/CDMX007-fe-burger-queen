@@ -13,6 +13,8 @@ import { ExtrasService } from './servicios/extras.service';
 import { BebidasService } from './servicios/bebidas.service';
 import { GuarnicionesServicio } from './servicios/guarniciones.service';
 import { EspecificacionesService } from './servicios/especificaciones.service';
+import { InputService } from './servicios/input.service';
+import { TicketService } from './servicios/ticket.service';
 
 
 //componentes
@@ -57,7 +59,9 @@ import { EspecificacionesComponent } from './components/especificaciones/especif
     ExtrasService,
     BebidasService,
     GuarnicionesServicio,
-    EspecificacionesService
+    EspecificacionesService,
+    InputService,
+    TicketService
   ],
   bootstrap: [AppComponent]
 })

@@ -7,12 +7,14 @@ export class ExtrasService {
         {
             nombre: 'Huevo',
             precio: '$ 15',
-            imagen: '../assets/images/lote/egg-5.png'
+            imagen: '../assets/images/lote/egg-5.png',
+            index: 0
         },
         {
             nombre: 'Queso',
             precio: '$ 15',
-            imagen: '../assets/images/lote/cheese-2.png'
+            imagen: '../assets/images/lote/cheese-2.png',
+            index: 1
         }
     ];
     constructor(){

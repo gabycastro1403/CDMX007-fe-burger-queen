@@ -4,7 +4,7 @@
 <section  class="products-container">
   <h2>G U A R N I C I Ó N </h2>
   <div class="container-guarnicion">
-  <div *ngFor = "let producto of guarnicion" class="producto-hamburguer">
+  <div *ngFor = "let producto of guarnicion; let i= index" (click)="searchProduct(i)" class="producto-hamburguer">
       <img class="imagen-producto" [src]="producto.imagen">
       <p>{{producto.nombre}}</p>
       <p>{{producto.precio}}</p>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Economica');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 
 
 h1{
@@ -8,20 +9,92 @@ h1{
     font-family:'Economica', sans-serif;
     text-align: center
 }
+#ticket-container h2{
+    color:white;
+    font-size: 1.2em;
+    font-family: 'Economica', sans-serif;
+    text-align: center;
+    margin: 0%;
+    display: inline-block;
+    margin-top:1%;
+    margin-left: 4%;
+}
+#ticket-container h3{
+    color:#f8d554;
+    font-size: 1.2em;
+    font-family: 'Economica', sans-serif;
+    text-align: center;
+    margin: 0%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 1%;
+}
 
 #ticket-container{
     background-color: #B5C2C9   ;
-    width: 23%;
+    width: 26%;
     height: 490px;
     float: right;
-    margin-top: -90%;
+    margin-top: -88%;
     box-shadow: -6px -4px 5px #C4C5C7;
 }
 #ticket-container p{
     color: #707070;
+    margin:0%;
     font-size: 1.5em;
     font-family:'Economica', sans-serif;
     text-align: center
+}
+
+@media  (max-width:800px){
+    #ticket-container{
+        height: 487px;
+        margin-top:-88%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    #ticket-container p{
+        font-size: 1.5em;
+    }
+    #ticket-container h2{
+        font-size: 1em;
+    }
+    #ticket-container h3{
+        font-size: 1em;
+    }
+    
+}
+@media(min-width:1200px){
+
+    #ticket-container{
+        height: 600px;
+        margin-top: -53%;
+    }
+    #ticket-container h2{
+        font-size: 1.5em;
+    }
+    #ticket-container h3{
+        font-size: 1.5em;
+    }
+    .productos-container{
+        margin-top: -46%;
+    }
+    #logo-container{
+        margin-top: -64%;
+    }
+    h2{
+        font-size: 4em;
+    }
+    .producto-hamburguer{
+        font-size: 2em;
+    }
+    .imagen-producto{
+        margin-left: 44%;
+    }
+
+
 }
 
 
