@@ -112,6 +112,36 @@ h2{
         margin-top: 15%;
     }
 }
+@media (min-width:1000px){
+    .products-container{
+        margin-top: -43%;
+    }
+    #logo-container{
+        margin-top: -57%;
+        margin-left: 13%;
+    }
+    #logo-category{
+        width: 75%;
+    }
+    .producto p{
+        font-size: 1.3em;
+    }
+    .container-extras{
+        margin-top: 7%;
+        margin-right: -17%;
+    }
+    .extras{
+        margin-left: -2%;
+        margin-right: 6%;
+    }
+    .extras p{
+        font-size: 1.3em;
+    }
+    .extras-main p{
+        font-size: 1.3em;
+        margin-left:-28%;
+    }
+}
 @media(min-width:1200px){
     .products-container{
         margin-top: -41%;

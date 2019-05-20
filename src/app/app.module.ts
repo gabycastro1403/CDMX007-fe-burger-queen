@@ -30,6 +30,8 @@ import { ExtrasComponent } from './componets/extras/extras.component';
 import { BebidasComponent } from './components/bebidas/bebidas.component';
 import { GuarnicionComponent } from './components/guarnicion/guarnicion.component';
 import { EspecificacionesComponent } from './components/especificaciones/especificaciones.component';
+import { ConfirmacionComponent } from './components/confirmacion/confirmacion.component';
+import { CancelacionComponent } from './components/cancelacion/cancelacion.component';
 
 
 
@@ -46,7 +48,9 @@ import { EspecificacionesComponent } from './components/especificaciones/especif
     ExtrasComponent,
     BebidasComponent,
     GuarnicionComponent,
-    EspecificacionesComponent
+    EspecificacionesComponent,
+    ConfirmacionComponent,
+    CancelacionComponent
   ],
   imports: [
     BrowserModule,

@@ -7,7 +7,9 @@ import { NameComponent } from './components/name/name.component';
 import { ExtrasComponent} from './componets/extras/extras.component';
 import { BebidasComponent } from './components/bebidas/bebidas.component';
 import { GuarnicionComponent } from './components/guarnicion/guarnicion.component';
-import { EspecificacionesComponent } from './components/especificaciones/especificaciones.component'
+import { EspecificacionesComponent } from './components/especificaciones/especificaciones.component';
+import { ConfirmacionComponent } from './components/confirmacion/confirmacion.component';
+import { CancelacionComponent } from './components/cancelacion/cancelacion.component'
 
 const app_routes : Routes = [
     {path: 'welcome', component: WelcomeComponent },
@@ -19,6 +21,8 @@ const app_routes : Routes = [
     {path: 'bebidas', component: BebidasComponent },
     {path: 'guarnicion', component: GuarnicionComponent },
     {path: 'especificaciones', component:EspecificacionesComponent},
+    {path: 'confirmacion', component: ConfirmacionComponent},
+    {path: 'cancelacion', component: CancelacionComponent },
     {path: '**', pathMatch:'full', redirectTo:'name'}
 
 ];

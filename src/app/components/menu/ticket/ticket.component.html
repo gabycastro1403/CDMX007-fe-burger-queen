@@ -7,7 +7,14 @@
     <h2>{{producto.nombre}}</h2>
     <h3>{{producto.precio}}</h3> 
    </div>
+   <div class="total-count" *ngIf="totalCount(_ticketService.productTicket)">
+       <h4>${{sum}}.00</h4>
+   </div>
   
-   
-
+</section>
+<section>
+    <div class="confirmar">
+        <img [routerLink]="['/cancelacion']" (click)="confirmacion(_ticketService.productTicket)" class ="confirmar-img"src="../../../../assets/images/lote/Cancelar orden-15.png">
+        <img [routerLink]="['/confirmacion']" (click)="confirmacion(_ticketService.productTicket)" class ="confirmar-img"src="../../../../assets/images/lote/Confirmar-16.png">
+    </div>
 </section>

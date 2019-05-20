@@ -135,6 +135,21 @@ hr{
         font-size: 1em;
     }
 }
+@media(min-width:1000px){
+    .products-container{
+        margin-top: -43%
+    }
+    #logo-container{
+        margin-top: -57%
+    }
+    #logo-category{
+        width: 75%;
+        margin-left: 16%;
+    }
+    .producto-hamburguer{
+        font-size: 1.3em;
+    }
+}
 @media (min-width:1200px){
     h2{
         font-size: 2em;

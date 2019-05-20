@@ -12,7 +12,7 @@ export class EspecificacionesComponent implements OnInit {
 
   ngOnInit() {
     this.especificaciones= this._especificacionesService.getEspecificacion();
-    console.log(this.especificaciones);
+    
   }
 
 }

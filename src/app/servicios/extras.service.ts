@@ -8,17 +8,16 @@ export class ExtrasService {
             nombre: 'Huevo',
             precio: '$ 15',
             imagen: '../assets/images/lote/egg-5.png',
-            index: 0
+            valor: 15
         },
         {
             nombre: 'Queso',
             precio: '$ 15',
             imagen: '../assets/images/lote/cheese-2.png',
-            index: 1
+            valor: 15
         }
     ];
     constructor(){
-        console.log('Servicio extras listo');
     }
     
     getExtras(){

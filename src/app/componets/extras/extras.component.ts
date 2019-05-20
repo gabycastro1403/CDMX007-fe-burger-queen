@@ -17,11 +17,10 @@ export class ExtrasComponent implements OnInit {
 
   ngOnInit() {
     this.extras = this._extrasMenu.getExtras();
-    console.log(this.extras);
   }
   public searchProduct(index){
     this.extras.forEach( element=>{
-      if(element.index== index){
+      if(this.extras.indexOf(element) == index){
         this.product=element;
         this._ticketService.saveTicket(this.product);
         //return this.product;

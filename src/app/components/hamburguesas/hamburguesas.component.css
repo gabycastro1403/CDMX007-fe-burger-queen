@@ -173,6 +173,31 @@ hr{
         font-size: 0.6em;
     }
 }
+@media(min-width:1000px){
+    .products-container{
+        margin-top: -46%;
+    }
+    #logo-container{
+        margin-top: -58%
+    }
+    #logo-category{
+        width:70%;
+        margin-left: 14%;
+    }
+    .container-extras{
+        margin-right: -21%
+    }
+    .extras{
+        margin-left:3%;
+    }
+    .extras p{
+        font-size: 1.3em;
+        margin-left: -20%;
+    }
+    .extras-main p{
+        font-size: 1.3em
+    }
+}
 @media(min-width:1200px){
     h2{
         font-size:1.8em;

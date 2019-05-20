@@ -16,14 +16,12 @@ product:object;
 
   ngOnInit() {
     this.bebidas= this._bebidasmenu.getBebidas();
-    console.log(this.bebidas);
   }
   public searchProduct(index){
     this.bebidas.forEach( element=>{
-      if(element.index== index){
+      if(this.bebidas.indexOf(element) == index){
         this.product=element;
         this._ticketService.saveTicket(this.product);
-        //return this.product;
       }
     })
   };
