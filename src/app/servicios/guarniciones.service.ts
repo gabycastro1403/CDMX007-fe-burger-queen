@@ -8,13 +8,13 @@ export class GuarnicionesServicio{
             nombre:'Papas fritas',
             precio: '$ 15',
             imagen: '../assets/images/lote/french-fries-2.png',
-            index: 0
+            valor: 15
         },
         {
             nombre: 'Aros de Cebolla',
             precio: '$15',
             imagen: '../assets/images/lote/onion-rings.png',
-            index: 1
+            valor: 15
         }
 
     ];

@@ -181,6 +181,38 @@ hr{
         margin-top: -1%
     }
 }
+@media( min-width:1000px){
+    h2{
+        margin-bottom: -0.5%;
+    }
+    .products-container{
+        margin-top: -47%;
+    }
+    #logo-container{
+        margin-top: -60%;
+    }
+    #logo-category{
+        width: 75%;
+        margin-left: 15%;
+    }
+    .container-extras{
+        margin-top: -1%;
+        margin-right: -13%;
+    }
+    .producto-hamburguer{
+        font-size: 1.3em;
+    }
+    .imagen-producto{
+        margin-bottom: 1%;
+        margin-left: 42%;
+    }
+    .extras p{
+        font-size: 1.3em;
+    }
+    .extras-main p{
+        font-size: 1.3em;
+    }
+}
 @media (min-width:1200px){
     h2{
         font-size: 2em;

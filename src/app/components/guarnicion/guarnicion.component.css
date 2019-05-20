@@ -160,7 +160,7 @@ hr{
 
     }
     .producto-hamburguer p{
-        font-size: 0.7em;
+        font-size: 1em;
     }
     .container-extras{
         margin-top: 12%;
@@ -171,6 +171,35 @@ hr{
     }
     .extras p{
         font-size: 1em;
+    }
+}
+@media(min-width:1000px){
+    .products-container{
+        margin-top: -44%;
+    }
+    #logo-container{
+        margin-top: -57%;
+    }
+    #logo-category{
+        width: 75%;
+        margin-left: 11%;
+    }
+    .producto-hamburguer p{
+        font-size: 1.3em;
+    }
+    .imagen-producto{
+        margin-left: 42%;
+    }
+    .container-extras{
+        margin-top: 10%;
+        margin-right: -11%
+    }
+    .extras p{
+        font-size: 1.3em;
+        margin-left: -29%;
+    }
+    .extras-main p{
+        font-size: 1.3em;
     }
 }
 @media(min-width:1200px){

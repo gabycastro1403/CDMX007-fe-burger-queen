@@ -45,22 +45,26 @@ hr{
 }
 @media (min-width: 1000px){
     p{
-        font-size: 2.2em;
+        font-size: 1.8em;
     }
     #exit{
-        width: 24%;
+        width: 22%;
         height: 10%;
+        margin-top: 3%;
     }
     #container-category{
-        height: 730px;
+        height: 600px;
     }
     p:hover{
-        font-size: 2.5em;
+        font-size: 2.3em;
+    }
+    #breakfast{
+        padding-top: 60%;
     }
 
 }
 
-@media(min-width:1001px) and (max-width:1500px){
+@media(min-width:1200px) and (max-width:1500px){
 
     #container-category{
         height: 700px;

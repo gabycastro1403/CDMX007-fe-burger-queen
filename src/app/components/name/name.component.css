@@ -57,7 +57,27 @@ p{
         margin-top: -68%;
     }
 }
-@media(min-width:1001px) and (max-width:1500px){
+@media(min-width:1000px){
+    p{
+        font-size: 3em;
+    }
+    #logo-container{
+        margin-top: -58%;
+    }
+    #logo-category{
+        width: 75%;
+        margin-left: 12%;
+    }
+    #section-name{
+        margin-top: -44%;
+
+    }
+    #name-client{
+        font-size: 2em;
+    }
+}
+
+@media(min-width:1200px) and (max-width:1500px){
     p{
         font-size: 3.5em;
     }

@@ -70,6 +70,27 @@ h2{
     }
 
 }
+@media(min-width:1000px){
+    h2{
+        margin-bottom: 0%;
+    }
+    .products-container{
+        margin-top: -45%
+    }
+    #logo-container{
+        margin-top: -58%;
+    }
+    #logo-category{
+        width: 75%;
+        margin-left: 8%;
+    }
+    .producto p{
+        font-size: 1.3em;
+    }
+    .imagen-producto{
+        margin-left: 39%;
+    }
+}
 @media(min-width:1200px){
     h2{
         font-size: 2.3em;

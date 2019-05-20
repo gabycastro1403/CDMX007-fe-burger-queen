@@ -20,7 +20,7 @@ product:object;
   }
   public searchProduct(index){
     this.guarnicion.forEach( element=>{
-      if(element.index== index){
+      if(this.guarnicion.indexOf(element) == index){
         this.product=element;
         this._ticketService.saveTicket(this.product);
         //return this.product;

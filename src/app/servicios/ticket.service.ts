@@ -8,8 +8,8 @@ export class TicketService{
 
     public saveTicket( product:object ){
         this.productTicket.push(product);
-        console.log(this.productTicket);
         return this.productTicket;
     }
+    
     
 }

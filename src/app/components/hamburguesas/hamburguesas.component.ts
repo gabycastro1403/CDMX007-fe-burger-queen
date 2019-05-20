@@ -27,7 +27,7 @@ export class HamburguesasComponent implements OnInit {
   }
   public searchProduct(index){
     this.hamburguesa.forEach( element=>{
-      if(element.index== index){
+      if(this.hamburguesa.indexOf(element) == index){
         this.product=element;
         this._ticketService.saveTicket(this.product);
         //return this.product;
