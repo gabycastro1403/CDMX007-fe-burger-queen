@@ -14,5 +14,8 @@ export class EspecificacionesComponent implements OnInit {
     this.especificaciones= this._especificacionesService.getEspecificacion();
     
   }
+  public especial(index){
+    this._especificacionesService.especificacion(index)
+  }
 
 }

@@ -7,7 +7,7 @@
     <div *ngFor = "let hamburguer of hamburguesa; let i= index" (click)="searchProduct(i)" class="producto-hamburguer">
         <img class="imagen-producto" [src]="hamburguer.imagen">
         <p>{{hamburguer.nombre}}</p>
-        <p>{{hamburguer.precio}}</p>
+        <p>$ {{hamburguer.precio}}</p>
     </div>
     <div class="container-extras">
         <div class="extras-main">

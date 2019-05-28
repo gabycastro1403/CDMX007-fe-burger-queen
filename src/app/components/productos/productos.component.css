@@ -75,10 +75,10 @@ h2{
         margin-bottom: 0%;
     }
     .products-container{
-        margin-top: -45%
+        margin-top: 0%
     }
     #logo-container{
-        margin-top: -58%;
+        margin-top: 7%;
     }
     #logo-category{
         width: 75%;
@@ -90,16 +90,17 @@ h2{
     .imagen-producto{
         margin-left: 39%;
     }
+    
 }
 @media(min-width:1200px){
     h2{
-        font-size: 2.3em;
+        font-size: 2.7em;
     }
     .products-container{
-        margin-top: -42%;
+        margin-top: 5%;
     }
     #logo-container{
-        margin-top: -55%;
+        margin-top: 6%;
     }
     #logo-category{
         width: 70%;
@@ -107,5 +108,8 @@ h2{
     }
     .producto{
         font-size: 1.5em;
+    }
+    .producto p{
+        font-size: 1.2em;
     }
 }

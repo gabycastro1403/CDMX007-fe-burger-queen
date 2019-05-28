@@ -7,28 +7,40 @@ export class MenuService{
     private desayunoMenu:any[] = [
             {
                 nombre:'Sándwich de Jamón con Queso',
-                precio: '$ 35',
+                precio:  35,
                 imagen:'../assets/images/lote/sandwuich.png',
-                valor: 35
+                valor: 0,
+                especificaciones:'',
+                eliminar:'../assets/images/lote/quitar-1.png',
+                cantidad:0
             },
             {
                 nombre:'Cafe Americano',
-                precio: '$ 20',
+                precio: 20,
                 imagen:'../assets/images/lote/coffee-1.png',
-                valor: 20
+                valor: 0,
+                especificaciones:'',
+                eliminar:'../assets/images/lote/quitar-1.png',
+                cantidad:0
             },
             {
                 nombre:'Cafe con Leche',
-                precio: '$ 28',
+                precio: 28,
                 imagen:'../assets/images/lote/coffee-2.png',
-                valor: 28
+                valor: 0,
+                especificaciones:'',
+                eliminar:'../assets/images/lote/quitar-1.png',
+                cantidad:0
             },
             
             {
                 nombre: 'Jugo Natural',
-                precio: '$ 15',
+                precio: 15,
                 imagen: '../assets/images/lote/jugo-1.png',
-                valor: 15
+                valor: 0,
+                especificaciones:'',
+                eliminar:'../assets/images/lote/quitar-1.png',
+                cantidad:0
             }
      ]
 

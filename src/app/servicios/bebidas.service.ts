@@ -5,27 +5,35 @@ export class BebidasService{
     private bebidasMenu:any[] = [
         {
             nombre:'Agua 500ml',
-            precio: '$ 10',
+            precio: 10,
             imagen: '../assets/images/lote/agua.png',
-            valor: 10
+            valor: 0,
+            cantidad: 0,
+            eliminar:'../assets/images/lote/quitar-1.png'
         },
         {
              nombre:'Refresco 500ml',
-             precio: '$ 15',
+             precio: 15,
              imagen: '../assets/images/lote/beverage.png',
-             valor: 15
+             valor: 0,
+             cantidad: 0,
+             eliminar:'../assets/images/lote/quitar-1.png'
         },
         {
             nombre: 'Agua 750ml',
-            precio: '$ 15',
+            precio: 15,
             imagen:'../assets/images/lote/agua.png',
-            valor: 15
+            valor: 0,
+            cantidad: 0,
+            eliminar:'../assets/images/lote/quitar-1.png'
         },
         {
              nombre: 'Refresco 750ml',
-             precio: '$ 20',
+             precio: 20,
              imagen: '../assets/images/lote/beverage.png',
-             valor: 20
+             valor: 0,
+             cantidad: 0,
+             eliminar:'../assets/images/lote/quitar-1.png'
         }
     ];
     constructor(){

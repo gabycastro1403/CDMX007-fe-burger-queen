@@ -14,7 +14,7 @@ h2{
     height: auto;
 }
 .producto{
-    background-color: #d9e3e6;
+    background-color:#acb8bf ;
     width: 45%;
     height: auto;
     display: inline-block;
@@ -22,7 +22,7 @@ h2{
     border-radius: 6%;
 }
 .producto:hover{
-    background-color: #acb8bf;
+    background-color:#d9e3e6 ;
 }
 .imagen-producto{
     position: relative;
@@ -114,11 +114,11 @@ h2{
 }
 @media (min-width:1000px){
     .products-container{
-        margin-top: -43%;
+        margin-top: 3%;
     }
     #logo-container{
-        margin-top: -57%;
-        margin-left: 13%;
+        margin-top: 4%;
+       
     }
     #logo-category{
         width: 75%;
@@ -144,33 +144,36 @@ h2{
 }
 @media(min-width:1200px){
     .products-container{
-        margin-top: -41%;
+        margin-top: 6%;
     }
     #logo-container{
-        margin-top: -53%;
+        margin-top: 5%;
     }
     #logo-category{
         width: 70%;
         margin-left: 6%;
     }
     .producto p{
-        font-size: 1.5em;
+        font-size: 1.9em;
     }
     .extras-main{
         margin-right: -8%
     }
     .extras-main p{
-        font-size: 1.5em;
+        font-size: 2em;
         margin:-2%;
-        margin-left: -40%;
+        margin-left: -70%;
        
     }
     .extras p{
-        font-size: 1.5em;
+        font-size: 2em;
         margin-left: -33%;
     }
     .container-extras{
         margin-top: 16%;
-        margin-right: -10%;
+        margin-right: -19%;
+    }
+    h2{
+        font-size: 3em;
     }
 }

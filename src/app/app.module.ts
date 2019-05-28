@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { environment } from '../environments/environment';
 
 
 //Rutas
@@ -32,6 +35,7 @@ import { GuarnicionComponent } from './components/guarnicion/guarnicion.componen
 import { EspecificacionesComponent } from './components/especificaciones/especificaciones.component';
 import { ConfirmacionComponent } from './components/confirmacion/confirmacion.component';
 import { CancelacionComponent } from './components/cancelacion/cancelacion.component';
+import { AngularFirestoreModule, AngularFirestore } from '@angular/fire/firestore';
 
 
 
@@ -55,7 +59,9 @@ import { CancelacionComponent } from './components/cancelacion/cancelacion.compo
   imports: [
     BrowserModule,
     app_routing,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig,'burgerqueen-ed43f'),
+    AngularFireDatabaseModule
   ],
   providers: [
     MenuService,
@@ -65,7 +71,10 @@ import { CancelacionComponent } from './components/cancelacion/cancelacion.compo
     GuarnicionesServicio,
     EspecificacionesService,
     InputService,
-    TicketService
+    TicketService,
+    AngularFirestoreModule,
+    AngularFirestore
+    
   ],
   bootstrap: [AppComponent]
 })

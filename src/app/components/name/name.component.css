@@ -47,14 +47,14 @@ p{
         font-size: 3.5em;
     }
     #section-name{
-        margin-top: -50%;
+        margin-top: 20%;
     }
     #name-client{
         width: 155%;
         font-size: 2.2em;
     }
     #logo-container{
-        margin-top: -68%;
+        margin-top: 7%;
     }
 }
 @media(min-width:1000px){
@@ -62,14 +62,15 @@ p{
         font-size: 3em;
     }
     #logo-container{
-        margin-top: -58%;
+        margin-top: 5%;
     }
     #logo-category{
         width: 75%;
         margin-left: 12%;
     }
     #section-name{
-        margin-top: -44%;
+        margin-top: 19%;
+        right: 4%;
 
     }
     #name-client{
@@ -79,17 +80,17 @@ p{
 
 @media(min-width:1200px) and (max-width:1500px){
     p{
-        font-size: 3.5em;
+        font-size: 4em;
     }
     #section-name{
-        margin-top: -40%;
+        margin-top: 23%;
     }
     #name-client{
-        font-size: 2.5em;
+        font-size: 3em;
         right: -35%;
     }
     #logo-container{
-        margin-top: -53%;
+        margin-top: 5%;
     }
     #logo-category{
         width: 80%;

@@ -9,6 +9,6 @@
   <div *ngFor = "let producto of menu; let i = index"(click)="searchProduct(i)" class="producto">
   <img class="imagen-producto"[src]= "producto.imagen">
   <p>{{producto.nombre}}</p>
-  <p>{{producto.precio}}</p>
+  <p> $ {{producto.precio}}</p>
   </div>
 </section>

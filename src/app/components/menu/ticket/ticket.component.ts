@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { InputService } from '../../../servicios/input.service';
 import { TicketService } from '../../../servicios/ticket.service';
+import { EspecificacionesService } from '../../../servicios/especificaciones.service';
+import { ProductosComponent } from '../../productos/productos.component';
 
 
 @Component({
@@ -11,13 +13,15 @@ import { TicketService } from '../../../servicios/ticket.service';
 export class TicketComponent {
   
    nameValue:string;
-  constructor(private _inputService:InputService, private _ticketService:TicketService) { 
-    
+  constructor(private _inputService:InputService, private _ticketService:TicketService,
+              private _especificacionesService:EspecificacionesService) { 
    }
+
   
   arrayCero:number=0;
    sum:number;
-   sumTotal:any;
+   
+   
 
   totalCount(arr:any[]){
     if(arr.length != this.arrayCero){
@@ -27,12 +31,31 @@ export class TicketComponent {
         return this.sum;
     }
   };
-
-  confirmacion(arr:any[]){
-    arr.length=0;
+  
+  public cancelar(){
+    this._ticketService.confirmacion();
   }
   
+  firebaseConfirmate(){
+    this._ticketService.createOrder();
   }
+  objeto(index){
+      this._ticketService.productArray.forEach(element=>{
+       if( this._ticketService.productArray.indexOf(element)== index){
+         this._ticketService.quitarProducto(element);
+         if(element.cantidad == 0 ){
+          this._ticketService.productArray.splice(index,1);
+        }   
+       }
+      })
+
+  }
+
+  
+  
+   
+  }
+   
   
   
   

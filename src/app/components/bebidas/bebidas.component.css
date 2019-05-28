@@ -100,7 +100,7 @@ hr{
     margin-top: 6%;
 }
 .producto-hamburguer{
-    background-color: #d9e3e6;
+    background-color:#acb8bf ;
     width: 46%;
     height: auto;
     display: inline-block;
@@ -108,7 +108,7 @@ hr{
     border-radius: 6%;
 }
 .producto-hamburguer:hover{
-    background-color: #acb8bf;
+    background-color:#d9e3e6;
 }
 .producto-hamburguer p{
     color:#707070;
@@ -186,10 +186,10 @@ hr{
         margin-bottom: -0.5%;
     }
     .products-container{
-        margin-top: -47%;
+        margin-top: -1%;
     }
     #logo-container{
-        margin-top: -60%;
+        margin-top: 4%;
     }
     #logo-category{
         width: 75%;
@@ -215,28 +215,28 @@ hr{
 }
 @media (min-width:1200px){
     h2{
-        font-size: 2em;
+        font-size: 3em;
     }
     .products-container{
-        margin-top: -42%;
+        margin-top: 5%;
 
     }
     #logo-container{
-        margin-top: -54%;
+        margin-top: 5%;
 
     }
     .producto-hamburguer p{
-        font-size: 1.2em;
+        font-size: 1.7em;
     }
     .imagen-producto{
         margin-left: 42%;
     }
     .extras-main p{
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .extras p{
-        font-size: 1.5em;
-        margin-left: -33%;
+        font-size: 2em;
+        margin-left: -24%;
     }
     #logo-category{
         width: 65%;
@@ -244,6 +244,6 @@ hr{
     }
     .container-extras{
         margin-right: -4%;
-        margin-top: 0%;
+        margin-top: 2%;
     }
 }

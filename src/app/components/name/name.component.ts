@@ -13,11 +13,7 @@ export class NameComponent implements OnInit {
   public value(){
     this._inputService.onKey(event);
   }
-  // onKey(event) {
-  //   this.inputValue = event.target.value;
-  //   console.log(this.inputValue);
-  //   return this.inputValue;
-  // }
+  
  
   ngOnInit() {
     

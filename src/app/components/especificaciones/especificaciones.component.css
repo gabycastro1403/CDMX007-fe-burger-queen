@@ -137,10 +137,10 @@ hr{
 }
 @media(min-width:1000px){
     .products-container{
-        margin-top: -43%
+        margin-top: 2%
     }
     #logo-container{
-        margin-top: -57%
+        margin-top: 5%
     }
     #logo-category{
         width: 75%;
@@ -152,16 +152,19 @@ hr{
 }
 @media (min-width:1200px){
     h2{
-        font-size: 2em;
+        font-size: 3em;
     }
     .products-container{
-        margin-top: -37%
+        margin-top: 6%
     }
     #logo-container{
-        margin-top: -53%; 
+        margin-top: 6%; 
     }
     #logo-category{
         width: 70%;
         margin-left: 6%;
+    }
+    .producto-hamburguer p{
+        font-size: 2em;
     }
 }
