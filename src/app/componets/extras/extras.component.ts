@@ -23,7 +23,7 @@ export class ExtrasComponent implements OnInit {
       if(this.extras.indexOf(element) == index){
         this.product=element;
         this._ticketService.saveTicket(this.product);
-        //return this.product;
+        
       }
     })
   };
